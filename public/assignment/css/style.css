@@ -1,0 +1,217 @@
+.left {
+    float: left;
+    width: 220px;
+    margin-top: -20px;
+    padding: 0;
+    background-color: white;
+    color: #0f0f0f;
+    border: 3px solid #555;
+    text-align: left;
+    border-bottom: 3px solid #555;
+    padding: 8px 10px;
+}
+/*this depicts the height between elements of left navigation bar*/
+td,th{
+    line-height: 35px;
+}
+.hm{
+    background-color: lightgray;
+}
+.blank{
+    height: 375px;
+}
+
+.center {
+    float: left;
+    width: 40px;
+    height: 500px;
+
+}
+
+.right {
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.p1{
+    font-size: 28px;
+    padding-right: 5px;
+
+}
+.h1f{
+    font-size: 410%;
+    color: gray;
+}
+
+#header{
+    border: 3px solid black;
+    background-color: white;
+    height: 100px;
+    padding-top: 24px;
+    padding-left: 15px;
+
+}
+#fm{
+    font-size: 380%;
+}
+
+#navbar{
+    color: blue;
+    padding-top: 15px;
+}
+
+b{
+    color: #000000;
+}
+
+#r{
+    color: #0f0f0f;
+}
+#Username{
+    border:2px solid #0f0f0f;
+    margin-bottom: 20px;
+
+}
+
+#inputPassword3{
+    border:2px solid #0f0f0f;
+    margin-bottom: 20px;
+}
+
+#vp{
+    border:2px solid #0f0f0f;
+    margin-bottom: 20px;
+}
+
+#e1{
+     border:2px solid #0f0f0f;
+     margin-bottom: 20px;
+ }
+
+#ln{
+    border:2px solid #0f0f0f;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+margin-left: 220px;
+    height:40px;
+    width:848px;
+    border:2px solid #0f0f0f;
+    font-size: medium;
+}
+
+#ue{
+    border:2px solid #0f0f0f;
+
+}
+
+
+#pd{
+    border:2px solid #0f0f0f;
+
+}
+
+#r12{
+    border:2px solid #0f0f0f;
+
+}
+
+#ffn{
+    border:2px solid #0f0f0f;
+
+}
+
+
+#pr{
+    background-color: lightgray;
+}
+
+#ad{
+    background-color: lightgray;
+}
+
+#gr{
+    background-color: lightgray;
+}
+
+#fs{
+    background-color: lightgray;
+}
+
+#fms{
+    border: 2px solid #0f0f0f;
+    background-color: lightgray;
+}
+
+#ffms{
+    border: 2px solid #0f0f0f;
+}
+
+#ttt{border: 3px solid #0f0f0f;
+    width: 1105px;
+    height:360px;
+}
+
+#ins{
+    margin-top: -115px;
+    width: 1050px;
+    margin-left: 22px;
+}
+
+#fffms{
+    border: 2px solid #0f0f0f;
+    background-color: lightgray;
+}
+
+#ms{
+    border: 2px solid #0f0f0f;
+}
+
+#tttt{border: 3px solid #0f0f0f;
+    width: 1089px;
+    height:850px;
+}
+
+#ins_new{
+    margin-top:-120px;
+    width: 1030px;
+    margin-left: 22px;
+    color: #0f0f0f;
+    border: hidden;
+}
+
+#fin{
+    border:2px solid #0f0f0f;
+}
+
+#lan{
+    border:2px solid #0f0f0f;
+
+}
+
+#meeting{
+    border:2px solid #0f0f0f;
+}
+
+#gender{
+    border:2px solid #0f0f0f;
+}
+
+input[type="checkbox"]{
+    margin-left: 13px;
+}
+
+#q{padding-left:1em;}
+
+#w{padding-left:1em;}
+
+#nf{
+    border:2px solid #0f0f0f;
+}
+#lp{padding-left:1.4em;}
+
+.blank1{
+    height: 835px;
+}
