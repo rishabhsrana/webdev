@@ -1,0 +1,19 @@
+
+<nav class = "navbar navbar-inverse navbar-fixed-top" ng-controller = "HeaderController">
+    <div class = "container-fluid">
+        <div class = "navbar-header">
+            <a class = "navbar-brand" href = "#">Form Maker</a>
+        </div>
+        <div id = "navbar" class = "navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a ng-show = "!currentUser" ng-class = "{$location:url() == '/register'}" href = "#/register">Register</a></li>
+                <li><a ng-show = "!currentUser" ng-class = "{$location:url() == '/login'}" href = "#/login">Login</a></li>
+                <li><a ng-show = "currentUser" ng-class = "{$location:url() == '/login'}" href = "#/home">Logout</a></li>
+                <li><a ng-show = "currentUser" ng-class = "{$location:url() == '/login'}" href = "#/profile">{{user.username}}</a></li>
+                <li><a ng-show = "(currentUser && admin)" ng-class = "{$location:url() == '/login'}" href = "#/admin">Admin</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
