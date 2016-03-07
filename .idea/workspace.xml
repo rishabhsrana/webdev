@@ -2,83 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07b0611f-2d71-47d8-a376-346db18b6d9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/services/forms.service.client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/services/user.service.client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/admin/admin.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/forms/fields.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/forms/forms.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/header/fields.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/header/forms.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/header/header.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/header/header.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/home/home.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/main/main.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/sidebar/sidebar.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/sidebar/sidebar.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/users/login.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/users/login.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/users/profile.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/users/profile.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/users/register.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assignment/views/users/register.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/NgClick.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/NgModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/NgRepeat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/NgRoute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/NgRoute2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/NgRouteL.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/home.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/NgClick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/NgModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/NgRepeat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/NgRoute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/NgRoute2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/NgRouteL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/example1.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/example2.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/navController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/profile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/userController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/js/userService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/angularjs/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/home/home.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/navigation/navigation.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/search/detail.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/search/detail.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/search/search.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/search/search.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/experiments/omdbapi/services/omdbapi.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/10-html.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/10-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/15-append.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/15-append.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/50-namespace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/GetElements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/Namespaces.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/OnClick.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/arrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/elementbyId.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/functions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/hello-world.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/imdb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/loops.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/src.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing2_clientside/variables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/Thumbs.db" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assignment/css/dashboard.css" afterPath="$PROJECT_DIR$/public/assignment/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assignment/form-fields.html" afterPath="$PROJECT_DIR$/public/assignment/form-fields.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assignment/index.html" afterPath="$PROJECT_DIR$/public/assignment/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assignment/register.html" afterPath="$PROJECT_DIR$/public/assignment/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/experiments/index.html" afterPath="$PROJECT_DIR$/public/experiments/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="CS5610Code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,18 +34,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forms.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assignment/views/header/forms.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fields.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assignment/views/header/fields.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -146,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/experiments/angularjs/js/example1.controller.js" />
         <option value="$PROJECT_DIR$/public/experiments/angularjs/js/example2.controller.js" />
         <option value="$PROJECT_DIR$/public/experiments/angularjs/NgRepeat.html" />
         <option value="$PROJECT_DIR$/public/experiments/angularjs/NgRoute2.html" />
@@ -197,6 +111,7 @@
         <option value="$PROJECT_DIR$/public/assignment/services/forms.service.client.js" />
         <option value="$PROJECT_DIR$/public/assignment/views/header/forms.controller.js" />
         <option value="$PROJECT_DIR$/public/assignment/views/header/fields.controller.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -289,6 +204,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS5610Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS5610Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS5610Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS5610Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS5610Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS5610Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,13 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14655173">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -781,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assignment/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2046678">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assignment/views/home/home.view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30520648">
@@ -829,7 +795,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assignment/views/header/forms.controller.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22666667">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.04">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/header/fields.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -837,7 +819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assignment/views/header/fields.controller.js">
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/header/forms.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
