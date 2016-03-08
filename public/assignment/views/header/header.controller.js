@@ -1,11 +1,17 @@
-
 (function(){
     "use strict";
     angular
         .module("FormBuilderApp")
         .controller("HeaderController", HeaderController);
 
-    function HeaderController($scope, $location) {
+    function HeaderController($rootScope, $scope, $location){
         $scope.$location = location;
+        $scope.logout = logout;
+
+        function logout(){
+            $rootScope.user = null;
+            $location.path('/home');
+        }
     }
+
 })();

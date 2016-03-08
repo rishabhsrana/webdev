@@ -4,7 +4,7 @@
         .module("FormBuilderApp")
         .controller("LoginController", LoginController);
 
-    function LoginController($rootScope, $scope, $location, UserService) {
+    function LoginController($rootScope, $scope, $location, UserService){
         $scope.$location = $location;
 
         /* declare event handler */
@@ -13,13 +13,13 @@
         /* implement event handler */
         function login() {
             UserService.findUserByCredentials($scope.userLogin.username, $scope.userLogin.password, function(newUser){
-                if(user == null) {
-                    alert("Incorrect Credentials");
+                if(newUser == null) {
+                    alert("Enter the correct Username or Password!");
                     return;
                 }
                     $rootScope.user = newUser;
-                    $location.path("/profile");
-            });
+                    $location.path("/home");
+            })
         }
     }
 })();

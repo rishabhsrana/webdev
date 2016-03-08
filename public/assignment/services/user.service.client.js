@@ -4,7 +4,16 @@
         .module("FormBuilderApp")
         .factory("UserService", UserService);
 
-    function UserService() {
+    function UserService(){
+
+/*        var api = {
+            findUserByCredentials : findUserByCredentials,
+            findAllUsers : findAllUsers,
+            createUser : createUser,
+            deleteUserById : deleteUserById,
+            updateUser : updateUser,
+        };
+        return api;*/
 
         /*Using extra input : E-mail since it's being used on Register Page */
 
@@ -21,13 +30,10 @@
                 "username":"ed",     "password":"ed",      "roles": ["student"]		    , "email": ["ed@n.com"]     }
         ];
 
-
         function findUserByCredentials(username, password, callback){
             var user = null;
-            for(var usr in users)
-            {
-                if(users[usr].username == username && users[usr].password == password)
-                {
+            for(var usr in users) {
+                if(users[usr].username == username && users[usr].password == password) {
                     user = users[usr];
                     break;
                 }
@@ -35,12 +41,13 @@
             callback(user);
         }
 
-        function findAllUsers(callback) {
+        function findAllUsers(callback){
             callback(users);
         }
 
-        function  createUser(user, callback) {
+        function createUser(user, callback) {
             user["_id"] = (new Date).getTime();
+            /*user._id = (new Date).getTime();*/
             users.push(user);
             callback(user);
         }
@@ -55,7 +62,7 @@
             callback(users);
         }
 
-        function updateUser(userId, user, callback) {
+        function updateUser(userId, user, callback){
             for( var usr in users) {
                 if(users[usr]._id == userId) {
                     users[usr] = user;
@@ -72,6 +79,5 @@
             deleteUserById: deleteUserById,
             updateUser: updateUser
         }
-
     }
 })();

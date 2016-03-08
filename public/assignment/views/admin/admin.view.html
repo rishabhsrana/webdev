@@ -1,0 +1,75 @@
+<div class = "container-fluid">
+    <div class = "col-sm-16">
+        <h1 class="page-header">Admin</h1>
+        <h2>Users</h2>
+        <table class = "table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th>
+                    <a ng-click = "reverse = !reverse">
+                        <span ng-show = "!reverse" class = "glyphicon glyphicon-triangle-bottom"></span>
+                        <span ng-show = "reverse" class = "glyphicon glyphicon-triangle-top"></span>
+                        Username
+                    </a>
+                </th>
+                <th>
+                    <a ng-click = "reverse = !reverse">
+                        <span ng-show = "!reverse" class = "glyphicon glyphicon-triangle-bottom"></span>
+                        <span ng-show = "reverse" class = "glyphicon glyphicon-triangle-top"></span>
+                        Password
+                    </a>
+                </th>
+                <th>
+                    <a ng-click = "reverse = !reverse">
+                        <span ng-show = "!reverse" class = "glyphicon glyphicon-triangle-bottom"></span>
+                        <span ng-show = "reverse" class = "glyphicon glyphicon-triangle-top"></span>
+                        Role
+                    </a>
+                </th>
+                <th>
+                    <span class = "glyphicon glyphicon-triangle-bottom"></span>
+                    Action
+                </th>
+            </tr>
+            </thead>
+
+            <tr>
+                <td><label for = "username"></label>
+                    <input ng-model = "data.username" type = "text" class = "form-control"
+                           name="username" id="username" placeholder="username">
+                </td>
+                <td><label for = "password"></label>
+                    <input ng-model = "data.password" type = "password" class = "form-control"
+                           name = "password" id = "password" placeholder = "password">
+                </td>
+                <td><label for = "role"></label>
+                    <input ng-model = "data.roles" type = "text" class = "form-control"
+                           name = "role" id = "role" placeholder = "role1 | role2">
+                </td>
+                <td align = "center">
+                    <a ng-click = "addUser(data)">
+                        <span class = "glyphicon glyphicon-plus"></span>
+                    </a>
+                    <a ng-click = "updateUser(data)">
+                        <span class = "glyphicon glyphicon-ok"></span>
+                    </a>
+                </td>
+            </tr>
+
+            <tr ng-repeat = "user in users | orderBy : sortUsers : reverse">
+                <td>{{user.username}}</td>
+                <td>{{user.password}}</td>
+                <td>{{user.roles.join().replace(',', ' | ')}}</td>
+                <td align = "center">
+                    <a ng-click = "removeUser(user._id)">
+                        <span class = "glyphicon glyphicon-remove"></span>
+                    </a>
+                    <a ng-click = "editUser(user)">
+                        <span class = "glyphicon glyphicon-pencil"></span>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+

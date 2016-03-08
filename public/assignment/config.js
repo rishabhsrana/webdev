@@ -1,11 +1,22 @@
-(function () {
+(function(){
     "use strict";
     angular
         .module("FormBuilderApp")
-        .config(function ($routeProvider) {
+        .config(configuration);
+
+        function configuration($routeProvider) {
             $routeProvider
                 .when("/home", {
-                    templateUrl: "views/home/home.view.html"
+                    templateUrl: "views/home/home.view.html",
+                    controller: "HomeController"
+                })
+                .when("/register", {
+                    templateUrl: "views/users/register.view.html",
+                    controller: "RegisterController"
+                })
+                .when("/login", {
+                    templateUrl: "views/users/login.view.html",
+                    controller: "LoginController"
                 })
                 .when("/profile", {
                     templateUrl: "views/users/profile.view.html",
@@ -17,22 +28,18 @@
                 })
                 .when("/forms", {
                     templateUrl: "views/forms/forms.view.html",
-                    controller: "FormsController"
+                    controller: "FormController"
                 })
                 .when("/fields", {
                     templateUrl: "views/forms/fields.view.html",
-                    controller: "FormsController"
+                    controller: "FormController"
                 })
-                .when("/register", {
-                    templateUrl: "views/users/register.view.html",
-                    controller: "RegisterController"
-                })
-                .when("/login", {
-                    templateUrl: "views/users/login.view.html",
-                    controller: "LoginController"
+                .when("/header", {
+                    templateUrl: "views/header/header.view.html",
+                    controller: "HeaderController"
                 })
                 .otherwise({
-                    redirectTo: "/"
+                    redirectTo: "/home"
                 })
-        });
+        }
 })();

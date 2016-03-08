@@ -2,9 +2,9 @@
     "use strict";
     angular
         .module("FormBuilderApp")
-        .controller("MainController", MainController);
+        .controller("HomeController", HomeController);
 
-    function MainController($scope, $location){
+    function HomeController($scope, $location){
         $scope.$location = $location;
     }
 })();

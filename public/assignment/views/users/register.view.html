@@ -4,7 +4,7 @@
 
         <div class = "form-group">
             <label for = "Username" class = "col-sm-2 form-control-label">Username:</label>
-                <div class = "col-sm-10">
+                <div class = "col-sm-12">
                     <input ng-model="userRegister.username" type = "text" class = "form-control"
                            id = "Username" placeholder = "Username">
                 </div>
@@ -12,7 +12,7 @@
 
         <div class = "form-group">
             <label for = "enterPassword" class = "col-sm-2 form-control-label">Password:</label>
-                <div class = "col-sm-10">
+                <div class = "col-sm-12">
                     <input ng-model = "userRegister.password" type = "password" class = "form-control"
                            id = "enterPassword" placeholder = "Password">
                 </div>
@@ -20,7 +20,7 @@
 
         <div class = "form-group">
             <label for = "vPassword" class = "col-sm-2 form-control-label">Verify Password:</label>
-                <div class = "col-sm-10">
+                <div class = "col-sm-12">
                     <input ng-model = "userRegister.verifyPassword" type = "password" class = "form-control"
                            id = "vPassword" placeholder = "Verify Password">
                 </div>
@@ -28,14 +28,14 @@
 
         <div class="form-group">
             <label for = "enterEmail" class = "col-sm-2 form-control-label">Email:</label>
-                <div class = "col-sm-10">
+                <div class = "col-sm-12">
                     <input ng-model = "userRegister.email" type = "email" class = "form-control"
                            id = "enterEmail" placeholder = "Email">
                 </div>
         </div>
-
+        &nbsp;
         <div class = "form-group">
-            <div class = "col-sm-offset-2 col-sm-10">
+            <div class = "col-sm-offset-0 col-sm-12">
                 <a ng-click="register()" type = "submit" class = "btn btn-default btn-block btn-primary" role = "button">
                     Register
                 </a>
